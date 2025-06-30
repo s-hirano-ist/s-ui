@@ -8,7 +8,7 @@ interface Component {
   dependencies: string[];
 }
 
-const REGISTRY_BASE_URL = 'https://raw.githubusercontent.com/sola/s-ui/main/registry';
+const REGISTRY_BASE_URL = 'https://raw.githubusercontent.com/s-hirano-ist/s-ui/main/registry';
 
 export async function list() {
   const spinner = ora('Fetching available components...').start();

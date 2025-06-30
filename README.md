@@ -9,34 +9,41 @@ A collection of reusable UI components built with React, TypeScript, and Tailwin
 Initialize s-ui in your project:
 
 ```bash
-npx s-ui init
+npx @s-hirano-ist/s-ui init
 ```
 
 Add components to your project:
 
 ```bash
 # Add a single component
-npx s-ui add button
+npx @s-hirano-ist/s-ui add button
 
 # Add multiple components
-npx s-ui add button card input
+npx @s-hirano-ist/s-ui add button card input
 
 # List available components
-npx s-ui list
+npx @s-hirano-ist/s-ui list
 ```
 
 ### Manual Installation
 
-1. Install the package:
+1. Configure npm to use GitHub Packages:
 
 ```bash
-npm install s-ui
+# Create or edit .npmrc in your project root
+echo "@s-hirano-ist:registry=https://npm.pkg.github.com" >> .npmrc
 ```
 
-2. Initialize the configuration:
+2. Install the package:
 
 ```bash
-npx s-ui init
+npm install @s-hirano-ist/s-ui
+```
+
+3. Initialize the configuration:
+
+```bash
+npx @s-hirano-ist/s-ui init
 ```
 
 ## Requirements
@@ -90,7 +97,7 @@ export default function MyComponent() {
 - **sonner** - Toast notification component
 - **drawer** - Mobile-first drawer component
 
-Run `npx s-ui list` to see all available components with descriptions.
+Run `npx @s-hirano-ist/s-ui list` to see all available components with descriptions.
 
 ## Configuration
 
@@ -123,10 +130,11 @@ The `components.json` file contains configuration for component installation:
 Initialize s-ui in your project:
 
 ```bash
-npx s-ui init
+npx @s-hirano-ist/s-ui init
 ```
 
 Options:
+
 - `-y, --yes` - Skip confirmation prompts
 - `--cwd <path>` - Set working directory
 
@@ -135,10 +143,11 @@ Options:
 Add components to your project:
 
 ```bash
-npx s-ui add [component-names...]
+npx @s-hirano-ist/s-ui add [component-names...]
 ```
 
 Options:
+
 - `-y, --yes` - Skip confirmation prompts
 - `-o, --overwrite` - Overwrite existing files
 - `--cwd <path>` - Set working directory
@@ -149,7 +158,7 @@ Options:
 List all available components:
 
 ```bash
-npx s-ui list
+npx @s-hirano-ist/s-ui list
 ```
 
 ## Development
@@ -170,6 +179,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## Acknowledgments
 
 Inspired by [shadcn/ui](https://ui.shadcn.com/) and built with:
+
 - [Radix UI](https://www.radix-ui.com/) - Unstyled, accessible components
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
 - [class-variance-authority](https://cva.style/) - Component variants
