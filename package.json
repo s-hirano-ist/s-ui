@@ -4,7 +4,7 @@
   "description": "A collection of reusable UI components built with React and Tailwind CSS",
   "main": "dist/index.js",
   "bin": {
-    "s-ui": "./bin/s-ui.js"
+    "s-ui": "bin/s-ui.js"
   },
   "scripts": {
     "build": "tsc -p tsconfig.cli.json",
@@ -69,13 +69,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/s-hirano-ist/s-ui.git"
+    "url": "git+https://github.com/s-hirano-ist/s-ui.git"
   },
   "bugs": {
     "url": "https://github.com/s-hirano-ist/s-ui/issues"
   },
   "homepage": "https://github.com/s-hirano-ist/s-ui#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   }
 }
