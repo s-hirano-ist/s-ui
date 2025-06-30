@@ -1,0 +1,72 @@
+[
+  {
+    "name": "button",
+    "description": "A customizable button component with multiple variants and sizes",
+    "dependencies": ["@radix-ui/react-slot", "class-variance-authority"]
+  },
+  {
+    "name": "card",
+    "description": "A flexible card component with header, content, and footer sections",
+    "dependencies": []
+  },
+  {
+    "name": "input",
+    "description": "A styled input field component with focus states",
+    "dependencies": []
+  },
+  {
+    "name": "label",
+    "description": "A label component for form inputs",
+    "dependencies": ["@radix-ui/react-label"]
+  },
+  {
+    "name": "badge",
+    "description": "A small badge component for status indicators",
+    "dependencies": ["class-variance-authority"]
+  },
+  {
+    "name": "dialog",
+    "description": "A modal dialog component with overlay",
+    "dependencies": ["@radix-ui/react-dialog"]
+  },
+  {
+    "name": "dropdown-menu",
+    "description": "A dropdown menu component with keyboard navigation",
+    "dependencies": ["@radix-ui/react-dropdown-menu"]
+  },
+  {
+    "name": "select",
+    "description": "A styled select component with search functionality",
+    "dependencies": ["@radix-ui/react-select"]
+  },
+  {
+    "name": "separator",
+    "description": "A visual separator component",
+    "dependencies": ["@radix-ui/react-separator"]
+  },
+  {
+    "name": "skeleton",
+    "description": "A loading skeleton component for better UX",
+    "dependencies": []
+  },
+  {
+    "name": "tabs",
+    "description": "A tab component with keyboard navigation",
+    "dependencies": ["@radix-ui/react-tabs"]
+  },
+  {
+    "name": "textarea",
+    "description": "A styled textarea component",
+    "dependencies": []
+  },
+  {
+    "name": "sonner",
+    "description": "Toast notification component",
+    "dependencies": ["sonner"]
+  },
+  {
+    "name": "drawer",
+    "description": "A drawer component for mobile-first interfaces",
+    "dependencies": ["vaul"]
+  }
+]

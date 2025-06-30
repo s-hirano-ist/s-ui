@@ -1,0 +1,6 @@
+{
+  "name": "card",
+  "files": ["card.tsx"],
+  "dependencies": [],
+  "registryDependencies": []
+}

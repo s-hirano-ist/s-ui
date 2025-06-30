@@ -1,0 +1,6 @@
+{
+  "name": "button",
+  "files": ["button.tsx"],
+  "dependencies": ["@radix-ui/react-slot", "class-variance-authority"],
+  "registryDependencies": []
+}
